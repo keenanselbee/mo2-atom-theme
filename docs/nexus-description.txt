@@ -1,0 +1,29 @@
+[heading][color=#E7676F]Description[/color][/heading]
+A MO2 theme based on the One Dark theme for the Atom text editor.
+
+ATOM gives Mod Organizer 2 a dark editor-style look with Atom-inspired colors, custom toolbar icons, checkboxes, arrows, and supporting UI assets.
+
+Uses some flash assets from [url=https://www.nexusmods.com/skyrim/mods/64439]Paper Dark[/url]. Big thanks to [b]AlcoholSwabs[/b]!
+
+
+[heading][color=#E7676F]Installation[/color][/heading]
+Copy and paste the [b]stylesheets[/b] folder into your Mod Organizer directory.
+
+In [b]MO Settings -> General -> Style[/b], select [b]ATOM.qss[/b].
+
+Under [b]MO Settings -> General -> Colors[/b], it is best to set:
+
+[list]
+[*][b]Mod Contains selected Plugin[/b] to white: [b]255, 255, 255[/b].[/*]
+[*][b]Plugin is Contained in selected Mod[/b] to white: [b]255, 255, 255[/b].[/*]
+[/list]
+
+
+[heading][color=#E7676F]Notes[/color][/heading]
+This is a stylesheet/theme package only. It does not change your load order, plugins, profiles, mods, or generated files.
+
+
+[heading][color=#E7676F]Credits[/color][/heading]
+ATOM uses some assets from [url=https://www.nexusmods.com/skyrim/mods/64439]Paper Dark[/url].
+
+Big thanks to [b]AlcoholSwabs[/b]!
