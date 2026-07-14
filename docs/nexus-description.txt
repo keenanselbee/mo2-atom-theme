@@ -1,29 +1,92 @@
+[center][url=https://www.nexusmods.com/skyrimspecialedition/mods/185229][img width=150,height=108]https://staticdelivery.nexusmods.com/mods/1704/images/thumbnails/27633/27633-1783986862-558495609.png[/img][/url] [url=https://www.nexusmods.com/skyrimspecialedition/mods/184880][img width=150,height=108]https://staticdelivery.nexusmods.com/mods/1704/images/thumbnails/27633/27633-1783986974-194452550.png[/img][/url] [url=https://www.nexusmods.com/site/mods/2074][img width=150,height=108]https://staticdelivery.nexusmods.com/mods/1704/images/thumbnails/27633/27633-1783986915-844267793.png[/img][/url] [url=https://www.nexusmods.com/site/mods/2075][img width=150,height=108]https://staticdelivery.nexusmods.com/mods/1704/images/thumbnails/27633/27633-1783986946-763882428.png[/img][/url][/center]
+
+[line]
+
 [heading][color=#E7676F]Description[/color][/heading]
-A MO2 theme based on the One Dark theme for the Atom text editor.
+ATOM is a dark Mod Organizer 2 theme based on the One Dark theme for the Atom text editor.
 
-ATOM gives Mod Organizer 2 a dark editor-style look with Atom-inspired colors, custom toolbar icons, checkboxes, arrows, and supporting UI assets.
+It gives MO2 a clean editor-style look with Atom-inspired colors, custom toolbar icons, custom checkboxes, radio buttons, arrows, and supporting UI assets.
 
-Uses some flash assets from [url=https://www.nexusmods.com/skyrim/mods/64439]Paper Dark[/url]. Big thanks to [b]AlcoholSwabs[/b]!
+This is a stylesheet/theme package only. It does not change your game files, load order, plugins, profiles, mods, or generated files.
 
+[line]
+
+[heading][color=#E7676F]Features[/color][/heading]
+[list]
+[*]Atom One Dark-inspired color palette for Mod Organizer 2.[/*]
+[*]Custom toolbar icons for common MO2 actions.[/*]
+[*]Custom checkbox, radio button, arrow, folder, pin, refresh, and status icons.[/*]
+[*]Styled tables, trees, tabs, menus, tooltips, dialogs, and download views.[/*]
+[*]Updated MO2 compatibility styling for newer UI elements.[/*]
+[*]Game-agnostic theme package: works with any game managed through MO2.[/*]
+[/list]
+
+[line]
+
+[heading][color=#E7676F]Requirements[/color][/heading]
+[list]
+[*][url=https://www.nexusmods.com/skyrimspecialedition/mods/6194]Mod Organizer 2[/url][/*]
+[/list]
+
+No SKSE, ESP, ESL, ESM, or game Data files are required.
+
+[line]
 
 [heading][color=#E7676F]Installation[/color][/heading]
-Copy and paste the [b]stylesheets[/b] folder into your Mod Organizer directory.
+Copy the included [b]stylesheets[/b] folder into your Mod Organizer 2 install directory.
 
-In [b]MO Settings -> General -> Style[/b], select [b]ATOM.qss[/b].
+The theme should end up in these paths:
 
-Under [b]MO Settings -> General -> Colors[/b], it is best to set:
+[list]
+[*][b]Mod Organizer 2\stylesheets\ATOM.qss[/b][/*]
+[*][b]Mod Organizer 2\stylesheets\ATOM\[/b][/*]
+[/list]
+
+In MO2, go to:
+
+[b]Settings -> General -> Style[/b]
+
+Select [b]ATOM.qss[/b].
+
+Restart MO2 if the theme or toolbar icons do not refresh immediately.
+
+[line]
+
+[heading][color=#E7676F]Recommended Color Settings[/color][/heading]
+Under [b]MO Settings -> General -> Colors[/b], set:
 
 [list]
 [*][b]Mod Contains selected Plugin[/b] to white: [b]255, 255, 255[/b].[/*]
 [*][b]Plugin is Contained in selected Mod[/b] to white: [b]255, 255, 255[/b].[/*]
 [/list]
 
+These settings help selected mod/plugin relationships stay readable with the ATOM palette.
 
-[heading][color=#E7676F]Notes[/color][/heading]
-This is a stylesheet/theme package only. It does not change your load order, plugins, profiles, mods, or generated files.
+[line]
 
+[heading][color=#E7676F]Compatibility[/color][/heading]
+[list]
+[*]Compatible with normal MO2 setups because it is only a Qt stylesheet and asset folder.[/*]
+[*]Works with any game managed by Mod Organizer 2.[/*]
+[*]Only one MO2 stylesheet can be active at a time, so other MO2 themes are mutually exclusive with ATOM.[/*]
+[*]MO2 updates can add or rename UI elements. If a new element appears unstyled, the theme may need a small compatibility update.[/*]
+[/list]
+
+[line]
+
+[heading][color=#E7676F]Troubleshooting[/color][/heading]
+[list]
+[*]If [b]ATOM.qss[/b] does not appear in the Style dropdown, confirm it is directly inside [b]Mod Organizer 2\stylesheets[/b].[/*]
+[*]If toolbar icons or checkboxes are missing, confirm the [b]ATOM[/b] asset folder is next to [b]ATOM.qss[/b].[/*]
+[*]If selected mod/plugin relationship text is hard to read, apply the recommended MO2 color settings above.[/*]
+[*]If MO2 still shows the previous theme, restart Mod Organizer 2 after selecting [b]ATOM.qss[/b].[/*]
+[*]Do not install this into a game's [b]Data[/b] folder. It belongs in the Mod Organizer 2 install directory.[/*]
+[/list]
+
+[line]
 
 [heading][color=#E7676F]Credits[/color][/heading]
-ATOM uses some assets from [url=https://www.nexusmods.com/skyrim/mods/64439]Paper Dark[/url].
-
-Big thanks to [b]AlcoholSwabs[/b]!
+[list]
+[*][url=https://www.nexusmods.com/skyrim/mods/64439]Paper Dark[/url] by [b]AlcoholSwabs[/b] - source/reference for some flash assets.[/*]
+[*][b]Atom One Dark[/b] - color and editor-theme inspiration.[/*]
+[/list]
