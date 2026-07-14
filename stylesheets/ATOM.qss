@@ -6,7 +6,7 @@
 /* Background - Content   | #21252B */
 /* Background - Alternate | #282C34 */
 /* Hover                  | #3A404B */
-/* Selected               | #2D4156 */
+/* Selected               | #4D5563 */
 
 /* All */
 
@@ -25,7 +25,7 @@ QAbstractItemView {
 	background: #21252B;
 	alternate-background-color: #282C34;
 	show-decoration-selected: 1;
-	selection-background-color: #2D4156;
+	selection-background-color: #4D5563;
 	selection-color: #FFFFFF;
 	border-radius: 6px;
 }
@@ -42,7 +42,7 @@ QAbstractItemView::item:hover {
 
 QAbstractItemView::branch:selected,
 QAbstractItemView::item:selected {
-	background: #2D4156;
+	background: #4D5563;
 	color: #FFFFFF;
 }
 
@@ -134,6 +134,16 @@ QToolButton:menu-indicator {
 
 ModListView, PluginListView {
 	margin: 2px 0;
+	selection-background-color: #4D5563;
+	selection-color: #FFFFFF;
+}
+
+ModListView::branch:selected,
+ModListView::item:selected,
+PluginListView::branch:selected,
+PluginListView::item:selected {
+	background: #4D5563;
+	color: #FFFFFF;
 }
 
 QTreeView, QListView {
@@ -546,7 +556,7 @@ QHeaderView::down-arrow {
 /* Right Click Menus, Toolbar Dropdown Menus, & Tooltips */
 
 QMenuBar::item:selected {
-	background: #2D4156;
+	background: #4D5563;
 	color: #FFFFFF;
 }
 
@@ -565,7 +575,7 @@ QMenu::item {
 
 QMenu::item:selected {
 	/* rows on right click menus when moused-over (i dunno) */
-	background: #2D4156;
+	background: #4D5563;
 	color: #FFFFFF;
 	border: 0;
 	border-radius: 4px;
@@ -650,8 +660,8 @@ QTabBar::tab:disabled {
 QTabBar::tab:selected {
 	/* a tab that is clicked */
 	color: #FFFFFF;
-	background: #2D4156;
-	border: 2px solid #2D4156;
+	background: #4D5563;
+	border: 2px solid #4D5563;
 }
 
 QTabBar::tab:first {
